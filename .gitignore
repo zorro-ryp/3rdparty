@@ -23,6 +23,15 @@ doctrine/dbal/.travis.yml
 doctrine/inflector/tests
 doctrine/lexer/composer.json
 doctrine/lexer/LICENSE
+/doctrine/migrations/composer.json
+/doctrine/migrations/tests
+/doctrine/migrations/phpunit.xml.dist
+/doctrine/migrations/CHANGELOG.md
+/doctrine/migrations/UPGRADE-1.0.md
+/doctrine/migrations/build-phar.sh
+/doctrine/migrations/.coveralls.yml
+/doctrine/migrations/README.md
+/doctrine/migrations/LICENSE
 
 pear/archive_tar/.travis.sh
 pear/archive_tar/.travis.yml
@@ -45,7 +54,19 @@ phpseclib/phpseclib/CHANGELOG.md
 phpseclib/phpseclib/README.md
 phpseclib/phpseclib/composer.json
 phpseclib/phpseclib/composer.lock
-phpseclib/phpseclib/phpunit.xml.dist
+
+/ocramius/package-versions/composer.json
+/ocramius/package-versions/CHANGELOG.md
+/ocramius/package-versions/CONTRIBUTING.md
+/ocramius/package-versions/README.md
+
+/ocramius/proxy-manager/doc-template
+/ocramius/proxy-manager/docs
+/ocramius/proxy-manager/composer.json
+/ocramius/proxy-manager/CHANGELOG.md
+/ocramius/proxy-manager/README.md
+/ocramius/proxy-manager/STABILITY.md
+/ocramius/proxy-manager/UPGRADE.md
 
 symfony/console/Symfony/Component/Console/Tests
 symfony/console/Symfony/Component/Console/.gitignore
@@ -54,6 +75,12 @@ symfony/console/Symfony/Component/Console/composer.json
 symfony/routing/Tests/
 symfony/routing/phpunit.xml.dist
 symfony/routing/.gitignore
+
+/symfony/yaml/Tests
+/symfony/yaml/.gitignore
+/symfony/yaml/CHANGELOG.md
+/symfony/yaml/phpunit.xml.dist
+/symfony/yaml/README.md
 
 symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/
 
@@ -207,3 +234,18 @@ paragonie/random_compat/.scrutinizer.yml
 paragonie/random_compat/ERRATA.md
 paragonie/random_compat/README.md
 paragonie/random_compat/SECURITY.md
+
+/zendframework/zend-code/doc
+/zendframework/zend-code/composer.json
+/zendframework/zend-code/CONDUCT.md
+/zendframework/zend-code/CONTRIBUTING.md
+/zendframework/zend-code/CHANGELOG.md
+/zendframework/zend-code/Makefile
+/zendframework/zend-code/mkdocs.yml
+/zendframework/zend-code/README.md
+
+/zendframework/zend-eventmanager/composer.json
+/zendframework/zend-eventmanager/CONDUCT.md
+/zendframework/zend-eventmanager/CONTRIBUTING.md
+/zendframework/zend-eventmanager/CHANGELOG.md
+/zendframework/zend-eventmanager/README.md
