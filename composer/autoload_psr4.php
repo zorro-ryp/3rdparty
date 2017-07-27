@@ -33,6 +33,7 @@ return array(
     'React\\Promise\\' => array($vendorDir . '/react/promise/src'),
     'Punic\\' => array($vendorDir . '/punic/punic/code'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'Predis\\' => array($vendorDir . '/predis/predis/src'),
     'Patchwork\\' => array($vendorDir . '/patchwork/utf8/src/Patchwork', $vendorDir . '/patchwork/jsqueeze/src'),
     'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
     'Leafo\\ScssPhp\\' => array($vendorDir . '/leafo/scssphp/src'),
