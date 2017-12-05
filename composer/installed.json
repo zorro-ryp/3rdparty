@@ -1796,12 +1796,12 @@
         "version_normalized": "1.5.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fruux/sabre-xml.git",
+            "url": "https://github.com/sabre-io/xml.git",
             "reference": "59b20e5bbace9912607481634f97d05a776ffca7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fruux/sabre-xml/zipball/59b20e5bbace9912607481634f97d05a776ffca7",
+            "url": "https://api.github.com/repos/sabre-io/xml/zipball/59b20e5bbace9912607481634f97d05a776ffca7",
             "reference": "59b20e5bbace9912607481634f97d05a776ffca7",
             "shasum": ""
         },
@@ -1861,12 +1861,12 @@
         "version_normalized": "3.0.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fruux/sabre-event.git",
+            "url": "https://github.com/sabre-io/event.git",
             "reference": "831d586f5a442dceacdcf5e9c4c36a4db99a3534"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fruux/sabre-event/zipball/831d586f5a442dceacdcf5e9c4c36a4db99a3534",
+            "url": "https://api.github.com/repos/sabre-io/event/zipball/831d586f5a442dceacdcf5e9c4c36a4db99a3534",
             "reference": "831d586f5a442dceacdcf5e9c4c36a4db99a3534",
             "shasum": ""
         },
@@ -2141,12 +2141,12 @@
         "version_normalized": "1.2.1.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fruux/sabre-uri.git",
+            "url": "https://github.com/sabre-io/uri.git",
             "reference": "ada354d83579565949d80b2e15593c2371225e61"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fruux/sabre-uri/zipball/ada354d83579565949d80b2e15593c2371225e61",
+            "url": "https://api.github.com/repos/sabre-io/uri/zipball/ada354d83579565949d80b2e15593c2371225e61",
             "reference": "ada354d83579565949d80b2e15593c2371225e61",
             "shasum": ""
         },
@@ -2194,12 +2194,12 @@
         "version_normalized": "4.1.2.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fruux/sabre-vobject.git",
+            "url": "https://github.com/sabre-io/vobject.git",
             "reference": "d0fde2fafa2a3dad1f559c2d1c2591d4fd75ae3c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fruux/sabre-vobject/zipball/d0fde2fafa2a3dad1f559c2d1c2591d4fd75ae3c",
+            "url": "https://api.github.com/repos/sabre-io/vobject/zipball/d0fde2fafa2a3dad1f559c2d1c2591d4fd75ae3c",
             "reference": "d0fde2fafa2a3dad1f559c2d1c2591d4fd75ae3c",
             "shasum": ""
         },
@@ -2293,12 +2293,12 @@
         "version_normalized": "4.2.2.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fruux/sabre-http.git",
+            "url": "https://github.com/sabre-io/http.git",
             "reference": "dd50e7260356f4599d40270826f9548b23efa204"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fruux/sabre-http/zipball/dd50e7260356f4599d40270826f9548b23efa204",
+            "url": "https://api.github.com/repos/sabre-io/http/zipball/dd50e7260356f4599d40270826f9548b23efa204",
             "reference": "dd50e7260356f4599d40270826f9548b23efa204",
             "shasum": ""
         },
@@ -2351,12 +2351,12 @@
         "version_normalized": "3.2.2.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fruux/sabre-dav.git",
+            "url": "https://github.com/sabre-io/dav.git",
             "reference": "e987775e619728f12205606c9cc3ee565ffb1516"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fruux/sabre-dav/zipball/e987775e619728f12205606c9cc3ee565ffb1516",
+            "url": "https://api.github.com/repos/sabre-io/dav/zipball/e987775e619728f12205606c9cc3ee565ffb1516",
             "reference": "e987775e619728f12205606c9cc3ee565ffb1516",
             "shasum": ""
         },
@@ -3313,5 +3313,75 @@
             "s3",
             "sdk"
         ]
+    },
+    {
+        "name": "symfony/translation",
+        "version": "v3.4.1",
+        "version_normalized": "3.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/translation.git",
+            "reference": "e05b0a5996ad7a35ba3a19ffad8b72c9daa64dfa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/translation/zipball/e05b0a5996ad7a35ba3a19ffad8b72c9daa64dfa",
+            "reference": "e05b0a5996ad7a35ba3a19ffad8b72c9daa64dfa",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "conflict": {
+            "symfony/config": "<2.8",
+            "symfony/dependency-injection": "<3.4",
+            "symfony/yaml": "<3.4"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.8|~3.0|~4.0",
+            "symfony/dependency-injection": "~3.4|~4.0",
+            "symfony/finder": "~2.8|~3.0|~4.0",
+            "symfony/intl": "^2.8.18|^3.2.5|~4.0",
+            "symfony/yaml": "~3.4|~4.0"
+        },
+        "suggest": {
+            "psr/log": "To use logging capability in translator",
+            "symfony/config": "",
+            "symfony/yaml": ""
+        },
+        "time": "2017-11-27T14:23:00+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Translation\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Translation Component",
+        "homepage": "https://symfony.com"
     }
 ]
