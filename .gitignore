@@ -65,6 +65,8 @@ symfony/console/Symfony/Component/Console/.gitignore
 symfony/console/Symfony/Component/Console/composer.json
 symfony/console/Tests
 
+symfony/contracts/Tests
+
 symfony/routing/Tests/
 symfony/routing/phpunit.xml.dist
 symfony/routing/.gitignore
