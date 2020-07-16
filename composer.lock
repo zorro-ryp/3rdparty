@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4764fd6a98b2b95475d06d646177637",
+    "content-hash": "8b01aa7773485e78b031d6f97cfb98a1",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1661,7 +1661,7 @@
             "time": "2015-08-01T16:27:37+00:00"
         },
         {
-            "name": "jeremeamia/SuperClosure",
+            "name": "jeremeamia/superclosure",
             "version": "2.4.0",
             "source": {
                 "type": "git",
@@ -1948,6 +1948,12 @@
                 "uri-template",
                 "url",
                 "ws"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/nyamsprod",
+                    "type": "github"
+                }
             ],
             "time": "2020-03-17T14:40:17+00:00"
         },
@@ -3272,16 +3278,16 @@
         },
         {
             "name": "punic/punic",
-            "version": "1.6.5",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/punic/punic.git",
-                "reference": "7bc85ce1137cf52db4d2a6298256a4c4a24da99a"
+                "reference": "1b99a1f0d45e2a6109870fde7a3977d9da68940f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/punic/punic/zipball/7bc85ce1137cf52db4d2a6298256a4c4a24da99a",
-                "reference": "7bc85ce1137cf52db4d2a6298256a4c4a24da99a",
+                "url": "https://api.github.com/repos/punic/punic/zipball/1b99a1f0d45e2a6109870fde7a3977d9da68940f",
+                "reference": "1b99a1f0d45e2a6109870fde7a3977d9da68940f",
                 "shasum": ""
             },
             "require": {
@@ -3292,12 +3298,16 @@
                 "punic/common": "*"
             },
             "require-dev": {
-                "apigen/apigen": "4.0.*"
+                "friendsofphp/php-cs-fixer": "2.2.*",
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.4"
             },
+            "bin": [
+                "bin/punic-data"
+            ],
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Punic\\": "code/"
+                    "Punic\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3314,6 +3324,11 @@
                     "name": "Remo Laubacher",
                     "email": "remo.laubacher@gmail.com",
                     "role": "Collaborator, motivator and perfectionist supporter"
+                },
+                {
+                    "name": "Christian Schmidt",
+                    "email": "github@chsc.dk",
+                    "role": "Developer"
                 }
             ],
             "description": "PHP-Unicode CLDR",
@@ -3333,7 +3348,7 @@
                 "translations",
                 "unicode"
             ],
-            "time": "2017-02-03T16:13:09+00:00"
+            "time": "2020-01-24T13:04:16+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -4486,6 +4501,20 @@
                 "ctype",
                 "polyfill",
                 "portable"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-02-27T09:26:54+00:00"
         },
